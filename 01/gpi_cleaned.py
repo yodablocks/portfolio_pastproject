@@ -7,7 +7,7 @@ import plotly.express as px
 from dash.dependencies import Input, Output  
 
 # Read the cleaned CSV file  
-data = pd.read_csv('gpi_cleaned.csv')  
+data = pd.read_csv('gpi_cleaned.csv') # it's the cleaned version from the xlsx file 
 
 # Create the Dash app  
 app = dash.Dash(__name__)  
